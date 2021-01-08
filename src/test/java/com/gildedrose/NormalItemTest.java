@@ -24,8 +24,8 @@ class NormalItemTest {
         app.items[0].sellIn = 1;
         app.items[0].quality = 20;
         app.calculateNextDay();
-        assert(app.items[0].sellIn == 1);
-        assert(app.items[0].quality == 20);
+        assert(app.items[0].sellIn == 0);
+        assert(app.items[0].quality == 19);
         app.calculateNextDay();
         assert(app.items[0].sellIn == -1);
         assert(app.items[0].quality == 17);
