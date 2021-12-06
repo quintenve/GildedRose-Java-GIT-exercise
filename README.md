@@ -1,7 +1,7 @@
 # GIT Exercise
 The goal of this repository is to create an exercise for students on learning GIT. They will add features and unit tests
 for different products but also will have to create some changes in the main function for which it is important to avoid or resolve merge conflicts.
-The code is based on the Gilded Rose Refactoring Kata.
+The code is based on the Gilded Rose Refactoring Kata. It is used in the class of 2021 as well.
 
 # Gilded Rose Refactoring Kata
 
