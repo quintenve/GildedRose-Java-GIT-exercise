@@ -6,6 +6,12 @@ public abstract class Item {
     public int sellIn;
     public int quality;
 
+    /**
+     * Item is any type of item
+     * @param name name of the item
+     * @param sellIn value in amount of days
+     * @param quality value as an integer
+     */
     public Item(String name, int sellIn, int quality) {
         this.name = name;
         this.sellIn = sellIn;
